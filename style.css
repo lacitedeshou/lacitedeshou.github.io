@@ -76,6 +76,14 @@
       background: var(--sand-100);
     }
 
+.counter {
+  margin-top: 8px;
+  opacity: 0.5;
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+}
+
     /* =====================
        SOMMAIRE
        ===================== */
