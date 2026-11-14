@@ -245,3 +245,66 @@
 .podcast-audio::-webkit-media-controls-panel {
   background-color: var(--sand-50);
 }
+
+
+
+/* =====================
+   EXEMPLES D'APPLICATION
+   ===================== */
+
+.exemples-equilibrage {
+  margin-top: 3rem;
+}
+
+.exemples-equilibrage > h3 {
+  margin-bottom: 1.5rem;
+}
+
+.exemple-equilibrage {
+  margin: 2rem 0;
+  padding: 1.5rem 2rem;
+  background: linear-gradient(
+    135deg,
+    var(--sand-100),
+    var(--sand-50)
+  );
+  border: 1px solid var(--sand-200);
+  border-left: 4px solid var(--accent-gold);
+  border-radius: 0.5rem;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.025);
+}
+
+.exemple-equilibrage h4 {
+  font-family: 'Cinzel', serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--ink-800);
+  margin: 0 0 1rem;
+}
+
+.exemple-equilibrage p {
+  font-size: 1.08rem;
+  color: var(--ink-600);
+  margin-bottom: 1rem;
+}
+
+.exemple-equilibrage p:last-child {
+  margin-bottom: 0;
+}
+
+.exemple-equilibrage ul {
+  padding-left: 1.5rem;
+  margin: 0 0 1.2rem;
+  color: var(--ink-600);
+  font-size: 1.08rem;
+}
+
+.exemple-equilibrage li {
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .exemple-equilibrage {
+    padding: 1.25rem 1.2rem;
+  }
+}
